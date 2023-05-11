@@ -1,0 +1,2 @@
+[root@localhost security lab]# yum install ettercap-common
+[root@localhost security lab]# ettercap –G

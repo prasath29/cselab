@@ -1,0 +1,10 @@
+1. Start/stop/restart firewalls
+[root@localhost ~]# systemctl start firewalld
+[root@localhost ~]# systemctl restart firewalld
+[root@localhost ~]# systemctl stop firewalld
+
+
+Block Facebook on IPTables 
+[root@localhost ~]# host facebook.com
+
+[root@localhost ~]# iptables -A OUTPUT -p tcp -d 157.240.0.0/16 -j DROP
